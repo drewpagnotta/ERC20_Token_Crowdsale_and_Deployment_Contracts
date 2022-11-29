@@ -9,3 +9,6 @@ Successful Compilation of the KaseiCoin Token Contract
 
 Successful Compilation of the KaseiCoin Crowdsale Contract
 <img width="1544" alt="KaseiCoin_Crowdsale_Contract_Successful_Compilation" src="https://user-images.githubusercontent.com/108194033/204668253-78e41642-6693-4e88-a04d-6e9300a12b49.png">
+
+Successful Compilation of the KaseiCoin Deployer Contract
+<img width="1544" alt="KaseiCoin_Deployer_Contract_Successful_Compilation" src="https://user-images.githubusercontent.com/108194033/204672684-3b950abc-accc-4b3a-84cd-effe603fd833.png">
