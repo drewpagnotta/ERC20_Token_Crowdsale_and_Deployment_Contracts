@@ -1,4 +1,4 @@
-# ERC20_Token_Crowdsale_and_Deployment_Contracts
+# ERC20 Token Crowdsale and Deployment Contracts
 
 ## Objective: To create an ERC-20 token contract, a crowdsale of the token, and deployment of the contract on the Ethereum blockchain via Remix IDE to write the contracts in Solidity, Ganache to interact with real (but fake) Ethereum wallet addresses, and MetaMask.
 
