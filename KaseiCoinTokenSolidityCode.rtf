@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red71\green137\blue205;\red255\green255\blue255;\red172\green173\blue193;
+\red212\green212\blue212;\red167\green197\blue151;\red79\green122\blue61;\red194\green126\blue101;\red238\green114\blue173;
+\red139\green107\blue10;\red45\green175\blue118;}
+{\*\expandedcolortbl;;\cssrgb\c33936\c61427\c84130;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c73059\c73457\c80033;
+\cssrgb\c86370\c86370\c86262;\cssrgb\c71008\c80807\c65805;\cssrgb\c37609\c54466\c30476;\cssrgb\c80778\c56830\c46925;\cssrgb\c95320\c54126\c73246;
+\cssrgb\c61751\c49155\c2803;\cssrgb\c19586\c72947\c53683;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 pragma\cf4 \strokec4  \cf2 \strokec2 solidity\cf4 \strokec4  \cf5 \strokec5 ^\cf6 \strokec6 0.5.0\cf5 \strokec5 ;\cf4 \strokec4 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 //  Import the following contracts from the OpenZeppelin library:\cf4 \strokec4 \
+\cf7 \strokec7 //    * `ERC20`\cf4 \strokec4 \
+\cf7 \strokec7 //    * `ERC20Detailed`\cf4 \strokec4 \
+\cf7 \strokec7 //    * `ERC20Mintable`\cf4 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 import\cf4 \strokec4  \cf8 \strokec8 "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol"\cf5 \strokec5 ;\cf4 \strokec4 \
+\cf2 \strokec2 import\cf4 \strokec4  \cf8 \strokec8 "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol"\cf5 \strokec5 ;\cf4 \strokec4 \
+\cf2 \strokec2 import\cf4 \strokec4  \cf8 \strokec8 "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol"\cf5 \strokec5 ;\cf4 \strokec4 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf7 \strokec7 // Create a constructor for the KaseiCoin contract and have the contract inherit the libraries that you imported from OpenZeppelin.\cf4 \strokec4 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \strokec2 contract\cf4 \strokec4  KaseiCoin \cf2 \strokec2 is\cf4 \strokec4  ERC20\cf5 \strokec5 ,\cf4 \strokec4  ERC20Detailed\cf5 \strokec5 ,\cf4 \strokec4  ERC20Mintable \cf5 \strokec5 \{\cf4 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf9 \strokec9 constructor\cf5 \strokec5 (\cf4 \strokec4 \
+        \cf2 \strokec2 string\cf4 \strokec4  \cf10 \strokec10 memory\cf4 \strokec4  name\cf5 \strokec5 ,\cf4 \strokec4 \
+        \cf2 \strokec2 string\cf4 \strokec4  \cf10 \strokec10 memory\cf4 \strokec4  symbol\cf5 \strokec5 ,\cf4 \strokec4 \
+        \cf2 \strokec2 uint\cf4 \strokec4  initial_supply\
+    \cf5 \strokec5 )\cf4 \strokec4 \
+        ERC20Detailed\cf5 \strokec5 (\cf4 \strokec4 name\cf5 \strokec5 ,\cf4 \strokec4  symbol\cf5 \strokec5 ,\cf4 \strokec4  \cf6 \strokec6 18\cf5 \strokec5 )\cf4 \strokec4 \
+        \cf11 \strokec11 public\cf5 \strokec5 \{\}\cf4 \strokec4 \
+\pard\pardeftab720\partightenfactor0
+\cf5 \strokec5 \}\cf4 \strokec4 \
+}
