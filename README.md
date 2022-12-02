@@ -12,3 +12,5 @@ Successful Compilation of the KaseiCoin Crowdsale Contract
 
 Successful Compilation of the KaseiCoin Deployer Contract
 <img width="1544" alt="KaseiCoin_Deployer_Contract_Successful_Compilation" src="https://user-images.githubusercontent.com/108194033/204672684-3b950abc-accc-4b3a-84cd-effe603fd833.png">
+
+[Video of the Deployed KaseiCoin Crowdsale Smart Contract](https://youtu.be/X_SLM5elmes)
